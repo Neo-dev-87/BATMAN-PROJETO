@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    list-style: none;
+    text-decoration: none;
+  
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   /* position: fixed;*/
+   top: 0%;
+    
+ 
+}
+
+
+nav {
+    width: 60%;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #D21617;
+} 
+
+
+.form {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+   
+
+}
+
+.nome{
+    color: aliceblue;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif; 
+    
+}
+
+#nome {
+    width: 600px;
+    height: 25px;
+    border-color: #CB1010;  
+    color: aliceblue;
+    border-radius: 5px;
+    
+}
+
+.email {
+    color: aliceblue;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif; 
+}
+
+#email {
+    width: 600px;
+    height: 25px;
+    border-color: #CB1010;
+    color: aliceblue;  
+    border-radius: 5px;
+}
+
+.telnu {
+    color: aliceblue;
+    font-size: 19px;
+    font-family: 'Kdam Thmor Pro', sans-serif; 
+    
+ 
+}
+
+#telnu {
+    width: 600px;
+    height: 25px;
+    border-color: #CB1010; 
+    color: aliceblue; 
+    border-radius: 5px;
+  
+}
+
+#mensagem {
+    width: 600px;
+    height: 300px;
+    border-color: #CB1010;  
+    position: relative;
+    top: 25px; 
+    color: aliceblue;
+    border-radius: 5px;
+    font-family: 'Kdam Thmor Pro', sans-serif; 
+   
+}
+
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button {
+    width: 150px;
+    height: 50px;
+    background-color: #CB1010;
+    padding: 8px,10px;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    color: aliceblue;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-weight: bold;
+    font-size: 19px;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+    border: none;
+    transition: .8s;
+    margin-bottom: 10px;
+    top: 80px; 
+}
+
+#button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+footer {
+    height: 300px;
+    margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 15px;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+
+@media(max-width: 768px) {
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+#nome{
+    width: 95%;
+    margin-left: 5px;
+}
+.nome {
+    margin-left: 5px;
+}
+#email{
+    width: 95%;
+    margin-left: 5px;
+}
+.email{
+    margin-left: 5px;
+}
+#telnu{
+    width: 95%;
+    margin-left: 5px;
+}
+.telnu{
+    margin-left: 5px;
+}
+#mensagem{
+    width: 95%;
+    margin-left: 8px;
+}
+#button {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+}
